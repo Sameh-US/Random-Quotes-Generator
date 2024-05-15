@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-html{
+
+html {
     background-image: url("image/image11.png");
     background-repeat: no-repeat;
     background-size: 100% 61%;
     background-color: #cbcfc6;
     min-width: 1212px;
+    height: 100vh;
 }
+
 * {
 
     font-family: "Cairo", sans-serif;
@@ -181,10 +184,20 @@ h1 {
     font-weight: 900;
     text-shadow: 1px 1px 20px #fcffff;
 }
+
 .auto-status {
     text-align: center;
-  }
+}
 
-  footer{
+footer {
     background-color: #161616;
-  }
+    height: 35px;
+    margin: 0;
+    color: aquamarine;
+    text-align: center;
+}
+
+.mail a{
+    color: #d1ffc6;
+
+}
